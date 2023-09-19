@@ -1,19 +1,24 @@
 body {
 	font-family: Verdana;
+	font-size: 3vw;
 	width: 90%;
 	margin-left: 5%;
-
 }
 
 header {
 	padding: 1vh 1vw;
 	margin-bottom: 1vh;
+	background: -webkit-linear-gradient(left, #1f47a8, #55dedf); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #1f47a8, #55dedf); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #1f47a8, #55dedf); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #1f47a8, #55dedf); /* Standard syntax */
+	border-radius: 1vh;
 }
 
 #contenido{
 	margin: 1%;
-	text-align: center;
 }
+
 
 header h1 {
 	padding-left: 1%;
@@ -26,80 +31,4 @@ footer {
 	padding-top: 1vw;
 	margin-top: 1vw;
 	text-align: center;
-}
-
-.adaptativa-porcentaje{
-	width:90%;
-}
-
-.adaptativa-porcentaje-1{
-	width:70%;
-}
-
-.adaptativa-porcentaje-2{
-	width:50%;
-}
-
-.adaptativa-porcentaje-3{
-	width:20%;
-}
-
-@media (min-width: 600px) {
-	#resumen{
-	display: none;
-	}
-	}
-
-@media screen and (max-width: 900px) {
-		header h1 {
-		color: red;
-	}
-
-		h1 {
-		color: red;
-	}
-
-	#contenido {
-		color: red;
-		font-size: 16px;
-	}
-
-}
-
-@media screen and (max-width: 700px) {
-	
-	header h1 {
-		color: blue;
-	}
-
-		h1 {
-		color: blue;
-	}
-
-	#contenido {
-		color: blue;
-	}
-
-
-
-}
-
-media screen and (max-width: 900px) {
-	
-	header h1 {
-
-		color: black;
-	}
-
-		h1 {
-		color: black;
-	}
-
-	#contenido {
-		color: black;
-		font-size: 14px;
-	}
-
-
-
 }
